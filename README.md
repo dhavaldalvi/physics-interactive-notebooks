@@ -11,7 +11,7 @@ To run the notebook locally, you'll need:
 - **Python 3.12**
 - **Jupyter Notebook**
 - **Voila** (to run the notebook as a web app)
-- 
+  
 You can install the required dependencies for each folder's "requirement.txt" file using:
 ```
 pip install -r requirements.txt
@@ -25,9 +25,13 @@ pip install -r requirements.txt
    jupyter notebook
    ```
 3. To run the notebook as an interactive web app with **Voila**, use the following command:
-   ```bash
+   ```
    voila notebook_name.ipynb
    ```
-4. Explore the physics animations and experiment with different parameters in the web interface.
+   Some notebooks may rely on Jupyter notebook extensions for additional interactivity or custom widgets, for that run the following command:
+   ```
+   voila --enable_nbextensions=True your_notebook.ipynb
+   ```
+5. Explore the physics animations and experiment with different parameters in the web interface.
 
 ---
